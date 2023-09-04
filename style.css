@@ -34,7 +34,6 @@ body {
     border-radius: 10px;
     margin: 40px auto;
     padding:10px;
-    display: ;
     overflow: hidden;
 }
 
@@ -93,19 +92,21 @@ body {
 }
 
 .form {
-    width:180px;
+    width:250px;
     position:absolute;
-    left:100px;
+    left:70px;
     text-align: center;
     height:220px;
-    display:;
-    top:25 0px;
+    display:none;
+    top:250px;
+   background-color:#005960;
+   border-radius: 50px;
    
 }
 
 .ente {
     position:relative;
-    top:5px;
+    top:25px;
     
 }
 

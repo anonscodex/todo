@@ -8,12 +8,13 @@ let addtask = document.querySelector(".roundbtn")
 let form = document.querySelector("#createtask")
 let addtaskbtn = document.querySelector("#enterbtn")
 let thetask = document.querySelector("#maintodo")
+let bodycontainer = document.querySelector(".container")
 
 
 
 function addnewtask() {
     form.style.display = 'block'
-    
+    taskcontainer.style.display = 'none'
 }
 
 addtask.addEventListener ('click', ()=> {
@@ -22,6 +23,8 @@ addtask.addEventListener ('click', ()=> {
 })
 
 addtaskbtn.addEventListener ('click', () =>{
+
+    taskcontainer.style.display = 'block'
     
     if(thetask.value === ''){
         alert("Enter todo")
