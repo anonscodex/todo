@@ -24,7 +24,7 @@ addtask.addEventListener ('click', ()=> {
 
 addtaskbtn.addEventListener ('click', () =>{
 
-    taskcontainer.style.display = 'block'
+    
     
     if(thetask.value === ''){
         alert("Enter todo")
@@ -38,8 +38,10 @@ addtaskbtn.addEventListener ('click', () =>{
         li.appendChild(span)
         
         form.style.display = 'none'
+        taskcontainer.style.display = 'block'
     }
-    thetask.value = " ";
+    
+    thetask.value = "";
     saveData()
 })
 
